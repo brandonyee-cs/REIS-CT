@@ -42,5 +42,9 @@ class systems:
             self.propInfo == 'ERROR // PROPERTIES DISPLAYED INVALID \nReload to Reset'
             return self.propInfo
 
-class timeline:
-    pass
+class timeline(systems):
+    def __init__(self, userType, propInfo) -> None:
+        systems.__init__(self,userType,propInfo)
+
+    def changeRate(self):
+        tempVar 
