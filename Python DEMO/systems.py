@@ -24,16 +24,30 @@ class systems:
     def getProplist(self):
         if self.userType == 'WC':
             self.df = pd.DataFrame(data=prop.wc_proplist)
+            self.dictvar = prop.wc_proplist
         elif self.userType == 'MC':
             self.df = pd.DataFrame(data=prop.mc_proplist)
+            self.dictvar = prop.mc_proplist
         elif self.userType == 'UC':
             self.df = pd.DataFrame(data=prop.uc_proplist)
+            self.dictvar = prop.uc_proplist
+        #df.index = ['Location:', 'Bed/Bath:', 'Est.Cost:', 'Morgage Cost:'] Fix Row Names
         return self.df
     
-    def getProp(self,propID):
+    def getProp(self):
+            validpropID = False
+            while validpropID != True:
+                propID = input("Enter the ID (First Row) of the property you want to purchase: ")
+                if propID in self.dictvar:
+                    validpropID = True
+                else:
+                    print("Invalid PropID; Try Again")
             self.prop = self.df.get(propID)
+            return self.prop
+            
+                
 
-    def morgage(self, propID):
+    def morgage(self):
         #Mortgages a property
         propVal = self.prop[3]
         if self.getBalance >= propVal:
@@ -46,8 +60,8 @@ class systems:
             return self.propInfo
 
 class timeline(systems):
-    def __init__(self, userType, propInfo) -> None:
-        systems.__init__(self,userType,propInfo)
+    def __init__(self, userType, prop) -> None:
+        systems.__init__(self,userType)
 
     def changeRate(self):
         pass

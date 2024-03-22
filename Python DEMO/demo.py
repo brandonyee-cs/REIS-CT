@@ -13,5 +13,6 @@ demo_balance = sys.getBalance(DEMO)
 print(f"Player Type: {demo_usertype} \nUC = Upper Class; MC = Middle Class; WC = Working Class")
 print(f"Balance: {demo_balance}")
 
-proplist = sys.getProplist(DEMO)
-print(proplist)
+print(sys.getProplist(DEMO))
+sys.getProp(DEMO)
+
