@@ -1,4 +1,4 @@
-# REIS CT  | **WORK IN PROGRESS**
+# REIS CT  | **WORK IN PROGRESS—PROTOTYPED OF LT GOVERNER'S COMPUTING CHALLENGE**
  Project By Brandon Yee, Shayaan Siddiqui, and Rohak Gulia 
 
 ## Introduction
