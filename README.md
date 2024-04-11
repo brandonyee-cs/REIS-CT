@@ -1,5 +1,4 @@
 # REIS CT  |  WORK IN PROGRESS
-PROTOTYPED FOR LT GOVERNER'S COMPUTING CHALLENGE
 
 Project By Brandon Yee, Shayaan Siddiqui, and Rohak Gulia 
 
@@ -21,5 +20,5 @@ _For information relating to the points above see the spreadsheet attached._
 
 ## Development
 
-# Submission Details
+# Submission Details | PROTOTYPED FOR LT GOVERNER'S COMPUTING CHALLENGE
 This project was developed by our team as a submission to the LT Governer's Computing Challenge for the 9-12 Development Challenge. 
