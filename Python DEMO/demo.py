@@ -8,10 +8,11 @@ DEMO = sys()
 sys.balStart(DEMO)
 
 #Prints Basic Information
-print(f"Player Type: {sys.getuserType(DEMO)} \nUC = Upper Class; MC = Middle Class; WC = Working Class")
-print(f"Balance: {sys.getBalance(DEMO)}")
+print(f"Player Type: {DEMO.userType} \nUC = Upper Class; MC = Middle Class; WC = Working Class")
+print(f"Balance: {DEMO.balance}")
 
 print(sys.getProplist(DEMO))
 sys.buyProp(DEMO)
 sys.morgage(DEMO)
-print(sys.getBalance)
+print(DEMO.balance)
+tl.changeRate(DEMO)
