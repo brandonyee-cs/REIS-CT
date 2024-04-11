@@ -20,5 +20,7 @@ _For information relating to the points above see the spreadsheet attached._
 
 ## Development
 
-# Submission Details | PROTOTYPED FOR LT GOVERNER'S COMPUTING CHALLENGE
+# Submission Details
+**PROTOTYPED FOR LT GOVERNER'S COMPUTING CHALLENGE**
+
 This project was developed by our team as a submission to the LT Governer's Computing Challenge for the 9-12 Development Challenge. 
