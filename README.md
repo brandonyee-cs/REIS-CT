@@ -18,8 +18,6 @@ This game would simulate the real Real Estate market with different properties, 
 
 _For information relating to the points above see the spreadsheet attached._
 
-## Development
-
 # Submission Details
 **PROTOTYPED FOR LT GOVERNER'S COMPUTING CHALLENGE**
 
