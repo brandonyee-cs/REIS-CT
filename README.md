@@ -7,9 +7,9 @@ This is the basis for a game based on the Real Estate market. The goal of this s
 
 ## Features
 
-This game would simulate the real Real Estate market with different properties, tenants and ever-changing prices in each of the locations.
+This game would simulate the real Real Estate market with different properties, costs, rent, and ever-changing prices in each of the locations.
 
- - **Tenants:** This simulation currently has been developed with 60+ tenants looking to live in varying locations, with varying credit scores, and even varying budgets.
+ - **Rent and Costs:** This simulation also uses a calculated rent-based system to allow property owners to earn passive income (similar to how one would in real life).
 
  - **Properties:** This simulation currently also has 70+ real-world properties with varying prices, dimensions, and values.
 
