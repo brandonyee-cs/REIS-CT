@@ -5,6 +5,7 @@ Project By Brandon Yee, Shayaan Siddiqui, and Rohak Gulia
 ## Introduction
 
 This is the basis for a game based on the Real Estate market. The goal of this simulation is to create a realistic version of the Real Estate Market in which users can learn to properly invest in Real Estate.
+Userflow Chart: https://www.figma.com/file/mb8R8hpZ0k2Xn8slZCjHuE/User-Flow-Diagram-Template-for-FigJam-(Community)?type=whiteboard&node-id=0%3A1&t=SRfp5Qpz5ViLWnx8-1
 
 ## Features
 
