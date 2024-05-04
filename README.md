@@ -1,6 +1,6 @@
 # REIS CT  |  WORK IN PROGRESS
 
-Project By Brandon Yee, Shayaan Siddiqui, and Rohak Gulia 
+Project By Brandon Yee, Shayaan Siddiqui, Lev Kong, and Rohak Gulia 
 
 ## Introduction
 
